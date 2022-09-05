@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Modelo Curriculo one</title>
+    <link rel="stylesheet" href="preenchimento.css">
+ </head>
+
+<body>
+
+    <div class="butao">
+        <button>Enviar</button>
+        <button onclick="visualizar()">Visualizar Curriculo</button>
+    </div>
+
+    <div class="visualização">
+        <div class="container_do_modelo">
+            <div class="preenchimento">
+
+                <h3>Digite as Informaçoes Necessarias</h3>
+                <form>
+                    <!-- cabeçalho -->
+
+                    <!-- TODAS REQUERIDAS  -->
+                    <input type="text" placeholder="Digite Seu Nome completo" required id="name"><br>
+                    <input type="text" placeholder="Digite Seu Estado Civil" required id="estado"><br>
+                    <input type="text" placeholder="Digite Sua Idade" required id="idade"><br>
+                    <input type="text" placeholder="Maior grau de instrução academica" required id="ensino"><br>
+                    <input type="text" placeholder="Digite Seu Linkedln" required id="link"><br>
+                    <input type="text" placeholder="Digite Seu E-mail" required id="email"><br>
+                    <input type="text" placeholder="Digite Numero para Contato" required id="numero"><br>
+
+                    <p></p>
+                    <!-- OBjetivo -->
+
+                    <label for="Objetivo">Escreva Seu Objetivo</label>
+                    <textarea id="obj" name="Objetivo" rows="4" cols="50" id="obj"></textarea>
+
+                    <p></p>
+
+                    <!-- Todas Opçcionais   
+    
+    Escolaridade - Superior (Tecnólogo)  e Tecnico -->
+
+                    <label>Escolaridade Superior (Tecnólogo)</label><br>
+                    <input type="text" placeholder="Digite O Ensino Superior" id="ensinosuperior1"><br>
+                    <input type="text" placeholder="Nome da Universidade" id="univercity1" ><br>
+                    <input type="text" placeholder="Tempo" id="tempo1"> <br>
+                    <p></p>
+                    <label>Escolaridade Superior (Tecnólogo)</label><br>
+                    <input type="text" placeholder="Digite O Ensino Superior" id="ensinosuperior1"><br>
+                    <input type="text" placeholder="Nome da Universidade" id="univercity1" ><br>
+                    <input type="text" placeholder="Tempo" id="tempo1"> <br>
+                    <p></p>
+                    <label>Escolaridade Ensino Técnico</label><br>
+                    <input type="text" placeholder="Digite O Ensino Tecnico"><br>
+                    <input type="text" placeholder="Nome da Universidade" id="univercity1" ><br>
+                    <input type="text" placeholder="Tempo"><br>
+                    <p></p>
+                    <label>Escolaridade Ensino Técnico</label><br>
+                    <input type="text" placeholder="Digite O Ensino Tecnico"><br>
+                    <input type="text" placeholder="Nome da Universidade" id="univercity1" ><br>
+                    <input type="text" placeholder="Tempo"><br>
+                    <p></p>
+                    <label>Escolaridade Ensino Técnico</label><br>
+                    <input type="text" placeholder="Digite O Ensino Tecnico"><br>
+                    <input type="text" placeholder="Nome da Universidade" id="univercity1" ><br>
+                    <input type="text" placeholder="Tempo"><br>
+                    <p></p>
+                    <label>Escolaridade Ensino Técnico</label><br>
+                    <input type="text" placeholder="Digite O Ensino Tecnico"><br>
+                    <input type="text" placeholder="Nome da Universidade" id="univercity1" ><br>
+                    <input type="text" placeholder="Tempo"><br>
+                    <p></p>
+                    <label>Formações Extracurricular </label><br>
+                    <input type="text" placeholder="Digite Cursos Extracurricular"><br>
+                    <input type="text" placeholder="Nome da Universidade" id="univercity1" ><br>
+                    <input type="text" placeholder="Tempo">
+                    <p></p>
+                    <label>Formações Extracurricular </label><br>
+                    <input type="text" placeholder="Digite Cursos Extracurricular"><br>
+                    <input type="text" placeholder="Nome da Universidade" id="univercity1" ><br>
+                    <input type="text" placeholder="Tempo"><br>
+                    <p></p>
+                    <label>Formações Extracurricular </label><br>
+                    <input type="text" placeholder="Digite Cursos Extracurricular"><br>
+                    <input type="text" placeholder="Nome da Universidade" id="univercity1" ><br>
+                    <input type="text" placeholder="Tempo"><br>
+                    <p></p>
+
+                    <!-- Experiencia -->
+                    <label>Experiência Profissional </label><br>
+                    <input type="text" placeholder="Digite O Nome da Empresa"><br>
+                    <input type="text" placeholder="Função Ou Cargo"><br>
+                    <input type="text" placeholder="Tempo"><br>
+                    <p></p>
+                    <label>Descrição da(s) Atividade(s)</label>
+                    <textarea id="obj" rows="4" cols="50"></textarea>
+                    <p></p>
+
+                    <label>Experiência Profissional </label>
+                    <input type="text" placeholder="Digite O Nome da Empresa"><br>
+                    <input type="text" placeholder="Função Ou Cargo"><br>
+                    <input type="text" placeholder="Tempo"><br>
+                    <p></p>
+                    <label>Descrição da(s) Atividade(s)</label>
+                    <textarea id="obj" rows="4" cols="50"></textarea>
+                    <p></p>
+                    <label>Experiência Profissional </label>
+                    <input type="text" placeholder="Digite O Nome da Empresa"><br>
+                    <input type="text" placeholder="Função Ou Cargo"><br>
+                    <input type="text" placeholder="Tempo"><br>
+                    <p></p>
+                    <label>Descrição da(s) Atividade(s)</label>
+                    <textarea id="obj" rows="4" cols="50"></textarea>
+                    <p></p>
+                </form>
+
+            </div>
+
+
+
+
+            <div class="container">
+                <div class="informacoespessoais">
+                    <h2 class="azul" id="nome_completo">Assuero Silva Mota de Souza</h2>
+                    <span id="estadocivil">Casado, </span>
+                    <span id="anosdevida">28 Anos, </span>
+                    <!-- //<span>Habilitado, </span> -->
+                    <span id="grauinstrucao">Nivel Superior</span>
+                    <p></p>
+                    <a href="mailto:Assueromota@hotmail.com" id="caixapostal"> E mail: Assueromota@hotmail.com </a>
+                    <p></p> 
+                    <font color="blue"><u><p id="linkdin"> Linkedln: Assuero-mota
+                        740636106</p></u></font>
+                    <p></p><a href="#" id="what"> Whatsapp: wa.me/5581988957462</a>
+
+                </div>
+
+
+                <div class="carreira">
+                    <h3 class="azul">Objetivo</h3>
+                    <p id="objetivo">Profissional, em TI</p>
+
+                    <h3 class="azul" >Escolaridade - Superior (Tecnólogo)</h3>
+                    <ul>
+                        <li>Tecnologia de Redes de computadores - CST (Unibra, 2018/2021)</li>
+                    </ul>
+
+
+
+
+                    <h3 class="azul">Escolaridade - Técnico</h3>
+                    <ul>
+                        <li>
+                            Desenvolvimento de Sistemas (Grau Técnico, 2022/2023)</li>
+                        <li> Informática Redes de computadores (Faculdade Maurício de Nassau, 2014/2016)</li>
+                        <li>Informática Suporte (Faculdade Marista-CRC, 2013/2014)</li>
+                    </ul>
+
+                    <h3 class="azul">Formação Extracurricular</h3>
+                    <ul>
+                        <li> CC50 - Ciência da Computação (Universidade de Harvard EAD)</li>
+                        <li>Desenvolvimento em Front-End (Alura, Udemy, Digital Innovation One,
+                            Fundação Bradesco)</li>
+                        <li> Excel Avançado e Dashboard (Udemy)</li>
+                        <li>Microsoft Power BI, Análise de Dados (DNC Group)</li>
+                    </ul>
+                    <h3 class="azul">Experiência Profissional</h3>
+
+                    <u>
+                        <font size="4">
+                            <p class="center">Litoraneus UV</p>
+                        </font>
+                    </u>
+                    <b>
+                        <p>Analista de Sistema- Jun/2022 à atual</p>
+                    </b>
+                    <ul>
+                        <li>Responsável por Desenvolver Aplicações Web para melhorias de atividades rotineiras, Análise
+                            de Dados
+                            com uso de Power B.i e VBA Excel, administração de Redes de computadores com uso do Active
+                            directory, realizacoes de manutenções analíticas em desktop de forma remota através de
+                            softwares
+                            LogmeIn-Client Help-Desk.
+                        </li>
+                    </ul>
+
+
+                    <u>
+                        <p class="center"> CHESF - Companhia Hidroelétrica do São Francisco</p>
+                    </u>
+                    LMV Empreendimentos</p>
+                    <b>
+                        <p>Data Analyts Nivel I - Jan/2022 à Jun/2022</p>
+                    </b>
+                    <ul>
+                        <li>Desenvolvimento de planos estratégicos fomentado por problemas variados ligados ao setor de
+                            logística da Chesf, utilização e desenvolvimento de Dashboards através do uso das
+                            ferramentas
+                            programação VBA Excel Avançado e Power B.I
+                        </li>
+                    </ul>
+                    <b>
+                        <p>Assistente Administrativo I – 2018 à 2022</p>
+                    </b>
+                    <ul>
+                        <li>Responsável pela organização de documentação e relatórios utilização de
+                            planilhas Excel e trabalhos diversos em Word, Sistema utilizados (SAP, FrotaWeb,
+                            Ticket-Log.)
+                        </li>
+
+                    </ul>
+                    <u>
+                        <p class="center">Marista-CRC</p>
+                    </u>
+                    <p> Trainee em Suporte Técnico - 2014</p>
+                    <ul>
+                        <li>Manutenção de microcomputadores, desktops, instalação de softwares,
+                            atendimento e suporte ao usuário.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="preenchimento.js"></script>
+</body>
+
+</html>
